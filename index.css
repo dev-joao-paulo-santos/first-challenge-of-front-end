@@ -1,0 +1,156 @@
+*{
+    color: black;
+    font-family: 'Open Sans';
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+body{
+   padding-left: 0; 
+   background: linear-gradient(#b6b5b5,#b6b5b5, #e4e1e1);
+   height: 100vh;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+a:hover{
+    text-shadow: 0 0 20px ;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    margin-left: 0%;
+    flex-direction: column;
+    background: linear-gradient(#b6b5b5,#b6b5b5, #e4e1e1);
+    background-attachment: fixed;
+    
+    background-size: cover;
+
+}
+.cardview{
+    width: 350px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 18px 0 18px;
+    background-color: #ffffff;
+    border-color: black;
+    border-radius: 5px;
+
+
+}
+.masterofcards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+
+}
+
+h2{
+    margin-right: 120px;
+
+}
+
+input{
+    width: 230px;
+    border: none;
+    position: absolute;
+    top: 0;
+    height: 30px;
+    padding: 10px;
+    left: 0;
+}
+
+span{
+    margin-top: 16px;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #DDDDDD;
+    width: 100vw;
+    height: 6vh;
+    margin-bottom: 60px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background: #c4c4c4;
+    width: 100vw;
+    padding-top: 23px;
+    
+
+}
+
+#footertext{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.cardbutton{
+    margin-top: 50px;
+    font-size: 20;
+    background-color: rgb(168, 166, 166);
+    padding: 10px 60px 10px 60px;
+    border-radius: 40px;
+    font-size: 16px;
+    transition-duration: 0.5s;
+}
+
+.search {
+    width: 200px;
+    height: 30px;
+
+    background: white;
+    position: relative;
+    
+    
+}
+
+.search span {
+    padding: 5px;
+    position: absolute;
+    top: -18px;
+    right: -30px;
+    
+}
+
+
+.cardbutton:hover{
+
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 30px black;
+
+}
+
+
+input:focus~span{display: none;}
